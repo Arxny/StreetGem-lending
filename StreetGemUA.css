@@ -231,26 +231,21 @@ body {
 }
 @media (max-width: 768px) {
   header {
-    min-width: 100%;
-    max-width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 10px 12px;
-}
-.header-ad {
-    max-width: 100%;
-    min-width: 100%;
-}
-  .gender-container {
-    gap: 10px;
-    margin-left: 0;
-}
-
-  .language-change {
-    display: none;
-}
-
-  .header-icons {
-    gap: 12px;
-}
+        min-width: 100%;
+        max-width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 12px;
+    }
+    .header-ad {
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .gender-container {
+        gap: 10px;
+        margin-left: 0;
+    }
+    .header-icons {
+        gap: 12px;
+    }
 }
