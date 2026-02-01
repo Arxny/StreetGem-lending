@@ -61,14 +61,14 @@ body {
 
 .active-language {
     color: black;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
     cursor: pointer;
     text-decoration: none;
 }
 
 .language {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
     cursor: pointer;
     color: rgb(137, 137, 137);
@@ -81,7 +81,7 @@ body {
 }
 
 .language-palka {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .header-icons {
@@ -96,7 +96,7 @@ body {
 }
 
 .categories {
-    font-size: 13px;
+    font-size: 14px;
     margin-left: 3.5%;
     margin-top: 2%;
     display: flex;
@@ -237,7 +237,7 @@ body {
 .center-pagination {
     display: flex;
     gap: 25px;
-    font-size: 14px;
+    font-size: 16px;
     margin-left: 24px;
     margin-right: 24px;
 }
