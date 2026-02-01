@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box 
+    box-sizing: border-box
 }
 
 header {
@@ -7,26 +7,27 @@ header {
     flex-direction: row;
     position: relative;
 }
+
 body {
     margin: 0;
     padding: 0;
     font-family: "Manrope", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-
 }
+
 .header-ad {
     background-color: rgb(38,38,38);
-    color: white;   
+    color: white;
     font-size: 12px;
     width: 100%;
     min-height: 4vh;
     margin: 0px;
     text-align: center;
-    padding: 0px;   
-    display: flex;             /* включає флексбокс */
-    align-items: center;       /* вертикальне вирівнювання */
-    justify-content: center;   /* горизонтальне вирівнювання */
+    padding: 0px;
+    display: flex; /* включає флексбокс */
+    align-items: center; /* вертикальне вирівнювання */
+    justify-content: center; /* горизонтальне вирівнювання */
 }
 
 .gender-container {
@@ -42,6 +43,7 @@ body {
     font-weight: 700;
     cursor: pointer;
 }
+
 .logo {
     position: absolute;
     left: 50%;
@@ -49,12 +51,14 @@ body {
     margin-top: 15px;
     cursor: pointer;
 }
+
 .language-change {
     padding-left: 65%;
     padding-top: 1.5%;
     display: flex;
     gap: 8px;
 }
+
 .active-language {
     color: black;
     font-size: 13px;
@@ -62,6 +66,7 @@ body {
     cursor: pointer;
     text-decoration: none;
 }
+
 .language {
     font-size: 13px;
     font-weight: 600;
@@ -69,53 +74,64 @@ body {
     color: rgb(137, 137, 137);
     text-decoration: none;
 }
+
 .language:hover {
     color: black;
     transition: color 1s ease;
 }
+
 .language-palka {
     font-size: 13px;
 }
+
 .header-icons {
     padding-left: 4%;
     padding-top: 1%;
     display: flex;
     gap: 40%;
 }
+
 .headericon-pointer {
     cursor: pointer;
 }
-.categories { 
+
+.categories {
     font-size: 13px;
     margin-left: 3.5%;
     margin-top: 2%;
     display: flex;
     gap: 15px;
 }
+
 .span-categories {
     cursor: pointer;
 }
+
 .sale {
     color: rgb(199, 0, 0);
     cursor: pointer;
 }
+
 .main-content {
     display: flex;
     align-items: flex-start; /* щоб не центрувалося по висоті */
     margin-top: 20px;
 }
-.clothes-categories{
+
+.clothes-categories {
     margin-top: 1.5%;
     height: 130px;
     width: 250px;
     margin-left: 3.5%;
 }
+
 .title-clothes {
     font-size: 13px;
     font-weight: 700;
     margin-left: 0%;
     cursor: pointer;
 }
+
 .categoria-clothes {
     height: 30px;
     width: 225px;
@@ -123,28 +139,33 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    }
+}
+
 .clothes-gender {
     height: 40px;
     width: 250px;
     display: flex;
     align-items: center;
-    }
+}
+
 .all-categories {
     height: 90px;
     width: 225px;
 }
+
 .clothes {
     font-size: 11px;
     font-weight: 700;
     padding-left: 15px;
     cursor: pointer;
 }
+
 .categories-icon svg {
     height: 14px;
     width: 14px;
     cursor: pointer;
 }
+
 .categoria-accessories {
     height: 30px;
     width: 225px;
@@ -153,12 +174,14 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
 .accessories {
     font-size: 11px;
     font-weight: 700;
     padding-left: 15px;
     cursor: pointer;
 }
+
 .categoria-shoes {
     height: 30px;
     width: 225px;
@@ -167,22 +190,25 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
 .shoes {
     font-size: 11px;
     font-weight: 700;
-    padding-left: 15px;  
+    padding-left: 15px;
     cursor: pointer;
 }
+
 .product-container {
-    margin-left: 40px;      /* відступ від меню */
+    margin-left: 40px; /* відступ від меню */
     display: flex;
-    flex-wrap: wrap;        /* щоб переносились */
+    flex-wrap: wrap; /* щоб переносились */
     gap: 20px;
-    max-width: 900px;       /* обмеження ширини */
+    max-width: 900px; /* обмеження ширини */
 }
+
 .product-card {
-    width: 31.5%;
-    aspect-ratio: 13 / 16;
+    width: 260px;
+    height: 320px;
     border: 1px solid #ddd;
     display: flex;
     align-items: center;
@@ -190,12 +216,14 @@ body {
     font-size: 14px;
     cursor: pointer;
 }
+
 .products-pagination {
-    margin-left: 80px;      /* відступ від меню */
-    flex-wrap: wrap;        /* щоб переносились */
+    margin-left: 80px; /* відступ від меню */
+    flex-wrap: wrap; /* щоб переносились */
     gap: 20px;
     max-width: 900px;
 }
+
 .pagination {
     margin-top: 40px;
     margin-bottom: 48px;
@@ -205,6 +233,7 @@ body {
     flex-direction: row;
     align-items: center;
 }
+
 .center-pagination {
     display: flex;
     gap: 25px;
@@ -212,40 +241,25 @@ body {
     margin-left: 24px;
     margin-right: 24px;
 }
+
 .arrow-icon-pagination svg {
     width: 12px;
     height: 12px;
     cursor: pointer;
 }
+
 .first-page-pagination {
     cursor: pointer;
 }
+
 .second-page-pagination {
     cursor: pointer;
 }
+
 .third-page-pagination {
     cursor: pointer;
 }
+
 .last-page-pagination {
     cursor: pointer;
-}
-@media (max-width: 768px) {
-  header {
-        min-width: 100%;
-        max-width: 100%;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 10px 12px;
-    }
-    .header-ad {
-        max-width: 100%;
-        min-width: 100%;
-    }
-    .gender-container {
-        gap: 10px;
-        margin-left: 0;
-    }
-    .header-icons {
-        gap: 12px;
-    }
 }
